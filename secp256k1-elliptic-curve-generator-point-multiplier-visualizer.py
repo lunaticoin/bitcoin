@@ -69,7 +69,7 @@ def sum_pt(lower_x, upper_x, function):
 
 def steps(num):
     actions_list = []
-    if multiplo_g == 1:
+    if num == 1:
         print('You already have the point')
     else:
         while num > 1:
